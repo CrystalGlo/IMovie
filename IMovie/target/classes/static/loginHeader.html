@@ -1,0 +1,44 @@
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-light">
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav1"
+                aria-controls="basicExampleNav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="/">
+            <img src="images/eye_movie_2.PNG" style="height:30%; width:100px;" class="d-inline-block align-top" alt="">
+        </a>
+
+        <form class="form-inline" action="search" method="GET">
+            <input class="form-control mr-sm-2" type="search" name="keyword" placeholder="Search By Keyword" aria-label="Search" required>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="basicExampleNav1">
+            <!-- Right -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="http://localhost:8080/cart" class="nav-link navbar-link-2 waves-effect">
+                        <span class="badge badge-danger" th:text="${cart}"></span>
+                        <i class="bi bi-cart3 pl-0"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://localhost:8080/cart" class="nav-link waves-effect">My Cart</a>
+                </li>
+                <li class="nav-item pl-2 mb-2 mb-md-0">
+                    <img src="images/user_avatar.png">
+                </li>
+                <li class="nav-item pl-2 mb-2 mb-md-0">
+                    Hi
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Navbar -->
+</header>

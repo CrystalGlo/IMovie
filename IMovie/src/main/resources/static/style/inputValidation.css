@@ -1,0 +1,8 @@
+input:invalid:required {
+  background-image: linear-gradient(90deg, rgba(242,242,249,1) 0%, rgba(219,243,247,1) 49%, rgba(0,212,255,0.09007352941176472) 90%);
+}
+
+textarea {
+background-image: linear-gradient(90deg, rgba(242,242,249,1) 0%, rgba(219,243,247,1) 49%, rgba(0,212,255,0.09007352941176472) 90%);
+}
+
